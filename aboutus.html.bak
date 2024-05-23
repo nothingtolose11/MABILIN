@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike - About </title>
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="shortcut icon" href="image/logo.png">
+	<script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<section>
+    <div class="about" id="About">
+		<section>
+        <nav>
+            <div class="logo">
+                <h1>Nike Sole <span>Hub</span></h1>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+          
+            </ul>
+			  <div class="search" id="search">
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class="fa-solid fa-search"></i></button>
+    </div>
+    <div class="icons">
+                <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+                <a href="products.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="LogInForms.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+
+           
+
+        </nav>
+
+        </section>
+        <div class="heading-wrapper">
+    <h1>Web<span>About</span></h1>
+</div>
+
+
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="cartoon1.jpg" onclick="functio(this)">
+                    <img src="sitting-man-nike-cartoon-7gyggsovl1oi9n0p.jpg" onclick="functio(this)">
+                    <img src="360_F_389922799_AZFyYZguDeEMoUdoROgEiJqfDPih1S12.jpg" onclick="functio(this)">
+                    <img src="nike-logos-lead.jpg" onclick="functio(this)">
+                </div>
+
+                <div class="image_contaner">
+                    <img src="cartoon1.jpg" id="imagebox">
+                </div>
+
+            </div>
+
+            <div class="about_text">
+                <p>
+                This Nike Shoes website embodies a culture of innovation and excellence, offering meticulously crafted footwear for athletes and enthusiasts alike. Rooted in a philosophy of relentless perfection, 
+				Nike engineers advanced technologies like the Air cushioning system and Flyknit construction. Beyond functionality, Nike shoes are fashion statements, blending cutting-edge design with timeless aesthetics. 
+				The website fosters community and empowerment, providing a seamless shopping experience and serving as a platform for engagement. Ultimately, Nike Shoes represents a celebration of innovation, style, and the enduring spirit of athleticism, 
+				inviting individuals to step into a world where every stride reflects the pursuit of excellence.
+                </p>
+            </div>
+
+        </div>
+
+
+        <a href="products.html" class="about_btn">Shop Now</a>
+
+        <script>
+            function functio(small){
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
+    </div>
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+
+                        <div class="profile_image">
+                       <img src="C:\Users\Reine\Downloads\NIKE WEB DES\Shoes Websit\owners bg.jpg">
+                        </div>
+
+                        <div class="name">
+                            <strong>Reine Aldrin Mabilin</strong>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                       The Nike Sole Hub website was conceived by a passionate sneaker enthusiast with a deep love for Nike footwear. Drawing from personal experiences and expertise in design, marketing, technology, and retail, this individual embarked on a mission to create a unique online destination for fellow sneakerheads. With a vision to go beyond a conventional e-commerce platform, the founder sought to cultivate a dynamic community where enthusiasts could explore, engage, and celebrate their shared passion for Nike sneakers.
+
+Through meticulous curation and a relentless commitment to customer satisfaction, the founder quickly gained recognition within the sneaker community. What began as a solo endeavor soon flourished into a thriving online hub, attracting enthusiasts from all corners of the globe. The Nike Sole Hub website became synonymous with quality, authenticity, and a deep understanding of sneaker culture.
+
+As the sole proprietor of the Nike Sole Hub website, the founder remains dedicated to providing an exceptional experience for every visitor. By staying informed about the latest sneaker trends and listening to the feedback of the community, they continue to refine and enhance the platform. Their unwavering passion and dedication have solidified the Nike Sole Hub website as a premier destination for sneaker enthusiasts worldwide.
+                    </p>
+                </div>
+            </div>   
+
+        </div>
+    <footer>
+        <div class="footer_main">
+            <div class="tag">
+                <h1>Contact</h1>
+                <a href="#"><i class="fa-solid fa-house"></i>G/F B3 Bonifacio High St., 9th Ave. Taguig City, Metro Manila, 1635, PH</a>
+                <a href="#"><i class="fa-solid fa-phone"></i>+63 0928 490 1644</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>NikeSoleHUB@gmail.com</a>
+            </div>
+
+            <div class="tag">
+                <h1>Get Help</h1>
+                <a href="#" class="center">FAQ</a>
+                <a href="#" class="center">Shipping</a>
+                <a href="#" class="center">Returns</a>
+                <a href="#" class="center">Payment Options</a>
+            </div>
+
+            <div class="tag">
+                <h1>Our Stores</h1>
+                <a href="#" class="center">Philippines</a>
+                <a href="#" class="center">USA</a>
+                <a href="#" class="center">Korea</a>
+                <a href="#" class="center">Japan</a>
+            </div>
+
+            <div class="tag">
+                <h1>Follow Us</h1>
+                <div class="social_link">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>                    
+                </div>
+            </div>
+
+            <div class="tag">
+                <h1>Newsletter</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="You email id here">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    
+</body>
+</html>
