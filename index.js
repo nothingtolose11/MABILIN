@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (searchTerm.includes('product')) {
                 window.location.href = 'products.html?search=' + encodeURIComponent(searchTerm);
             } else if (searchTerm.includes('log in forms')) {
-                window.location.href = 'loginForms.html?search=' + encodeURIComponent(searchTerm);
+                window.location.href = 'LogInForms.html?search=' + encodeURIComponent(searchTerm);
             } else if (searchTerm.includes('contact us')) {
                 window.location.href = 'contactus.html?search=' + encodeURIComponent(searchTerm);
             } else {
